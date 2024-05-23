@@ -6,7 +6,7 @@ from base.base_test import BaseTest
 
 
 @allure.feature("Profile Functionality")
-class ProfileFeatureTests(BaseTest):
+class TestProfileFeatureTests(BaseTest):
 
     @allure.title("Change profile name")
     @allure.severity("Critical")
